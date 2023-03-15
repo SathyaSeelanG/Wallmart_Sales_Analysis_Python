@@ -1,0 +1,30 @@
+Data columns (total 8 columns):
+ #   Column        Non-Null Count  Dtype         
+---  ------        --------------  -----         
+ 0   Store         6435 non-null   int64         
+ 1   Date          6435 non-null   datetime64[ns]
+ 2   Weekly_Sales  6435 non-null   float64       
+ 3   Holiday_Flag  6435 non-null   int64         
+ 4   Temperature   6435 non-null   float64       
+ 5   Fuel_Price    6435 non-null   float64       
+ 6   CPI           6435 non-null   float64       
+ 7   Unemployment  6435 non-null   float64       
+dtypes: datetime64[ns](1), float64(5), int64(2)
+memory usage: 402.3 KB
+The store has maximum standard deviation is 14 with 317570 $
+<class 'numpy.float64'>
+The store has maximum standard deviation is 14 with 317570 $
+
+
+
+Linear Regression:
+
+Accuracy: 12.971574762642335
+Mean Absolute Error: 444261.4071721344
+Mean Squared Error: 295037092347.985
+Root Mean Squared Error: 543173.1697607909
+Random Forest Regressor:
+
+Accuracy: 94.13802481993724
+Mean Absolute Error: 71668.93386943564
+Mean Squared Error: 19768750542.80936
